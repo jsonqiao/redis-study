@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  contextPath: /redis
+
+logging:
+  file: D:/temp/redis.log
+
+spring:
+  redis:
+    database: 0
+    host: www.jsonqiao.com
+    port: 9000
+    password: Lby19910104
+    pool:
+      max-active: 10
+      max-wait: 1
+      min-idle: 0
+
+
+
+
